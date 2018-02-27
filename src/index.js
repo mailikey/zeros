@@ -4,7 +4,7 @@ module.exports = function getZerosCount(number) {
     let AllZeroz = 0;
 
     while (Zerozcount >= 1){
-        Zerozcount = number / Math.pow(5,i);
+        Zerozcount = number / Math.pow(5,i++);
         AllZeroz = Math.floor(Zerozcount + AllZeroz);
     }
 
