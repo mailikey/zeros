@@ -1,3 +1,4 @@
 module.exports = function getZerosCount(number) {
-  // your implementation
+    let Zeros = ((number / 5) + number/25));
+    return Zeros;
 }
